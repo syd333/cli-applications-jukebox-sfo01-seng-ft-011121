@@ -22,7 +22,7 @@ def play(songs)
     if user_input.to_i == index
     puts “Playing #{songs[index]}”
   elsif user_input == song
-    puts “Playing {#song}"
+    puts “Playing #{song}”
   end
 end
     puts “Invalid input, please try again”
