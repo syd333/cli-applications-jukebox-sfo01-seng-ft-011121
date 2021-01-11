@@ -20,7 +20,7 @@ def play(songs)
   user_input = gets.strip
   songs.each.with_index(1) do |song, index|
     if user_input.to_i == index
-    puts “Playing #{songs[index]}”
+    puts "Playing #{song[index]}"
   elsif user_input == song
     puts “Playing #{song}”
   end
